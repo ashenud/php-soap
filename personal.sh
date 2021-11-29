@@ -1,0 +1,1 @@
+docker run --restart=always --name php-soap -p 1012:80 -d -w /var/www/cwm-integration -v /var/www/html/soap:/var/www/soap php-soap
