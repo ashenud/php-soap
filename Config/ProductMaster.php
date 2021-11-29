@@ -71,7 +71,7 @@ class ProductMaster extends Database
         $this->connection->query($sql) ? null : $all_query = false;
         if($all_query) {
             $this->connection->commit();
-            return $sql;
+            return true;
         }
         else {
             $this->connection->rollback();

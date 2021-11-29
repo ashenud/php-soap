@@ -146,7 +146,7 @@ function authentication($Credentials){
         $Response = array();
         $Response['Message'] = $message;
         $Response['_token'] = $authentication->token;
-        print_r(($authentication));
+        // print_r(($authentication));
         return $Response;
     }
     else {
