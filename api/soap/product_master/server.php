@@ -5,7 +5,7 @@ require_once __DIR__ . '/../../../Config/Authentication.php';
 require_once __DIR__ . '/../../../Config/ProductMaster.php';
 
 $server = new soap_server();
-$namespace = 'http://cwm.salespad.lk/cwm-integration/api/soap/product_master/server.php?wsdl';
+$namespace = 'http://test.server.lk/sap-integration/api/soap/product_master/server.php?wsdl';  // server url
 $server->configureWSDL('productMasterSyncService', $namespace);
 
 // productMasterSync types
